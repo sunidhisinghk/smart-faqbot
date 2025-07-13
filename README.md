@@ -1,6 +1,6 @@
 ''' Updated it from OpenAI API to Gemeni API due to cost issue
 
-# 💼 Smart FAQBot
+# Smart FAQBot
 
 An AI-powered HR assistant chatbot built with **Streamlit**, **FAISS**, and **Google Gemini**, designed to answer queries based on an organization's HR policy documents.
 

@@ -43,11 +43,11 @@ Answer:"""
 
 # Chatbot loop
 if __name__ == "__main__":
-    print("💬 [Gemini HR FAQBot] Ask a question or type 'exit' to quit.\n")
+    print("[Gemini HR FAQBot] Ask a question or type 'exit' to quit.\n")
     while True:
         user_input = input("You: ")
         if user_input.lower() in ['exit', 'quit']:
-            print("👋 Goodbye!")
+            print("Goodbye!")
             break
         answer = generate_answer(user_input)
         print("Bot:", answer)

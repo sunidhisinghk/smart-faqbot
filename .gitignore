@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables
+.env
+
+# Vector and data files
+*.pkl
+*.faiss
+*.db
+
+# Streamlit logs
+*.log
+.streamlit/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+
+# OS metadata
+.DS_Store
+Thumbs.db
